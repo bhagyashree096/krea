@@ -11,6 +11,10 @@
     background-color: #005aac;
     
 }
+.menu-bar {
+    background-color: #005aac;
+    padding: 40px 0px 30px 20px;
+}
 .navbar li{
     display: flex;
     list-style-type: none;
@@ -24,7 +28,9 @@
     
 }
 .logo{
-    height: 0px;
+    /* height: 0px; */
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .menu-items{
@@ -41,11 +47,32 @@
     font-size: 13px;
     
 
+    
 
+
+}
+#lucy{
+ margin-top: 42px;
+    /* padding-top: 50px;  */
+width: 200px;
+height: 30px;
+text-align: end;
+line-height: 2;
+    
 }
 
 .navbar li a:hover{
     color: #2f5aa8;
+}
+.buttom{
+    background-color: blue;
+    width:200px;
+    height: 50px;
+    margin: 30px 0px 0px 20px;
+    border-radius:5px;
+    line-height: 3;
+    text-align: center;
+    color: white;
 }
 .trigger{
     height: 32px;
@@ -68,12 +95,14 @@
 
 #para{
     font-size: 18px;
-    padding:100px;
+    padding:0px 100px 100px 100px;
     line-height: 1cm;
 }
 .mid{
     display: flex;
     text-align: left;
+    padding-left: 210px;
+    padding-top: 40px;
 }
 .pics{
     display: flex;
@@ -243,9 +272,10 @@ summary {
     width: 1475px;
     height:547 px;
     /* border: 2px solid black; */
-    margin: 30px 0px 50px 150px;
-    padding: 20px;
+    margin: 30px 0px 50px 0px;
+    padding: 40px 0px 0px 200px;
      /* background-color: #2f5aa8;  */
+     background-color: #e6eaed;
  }
  .part{
     width: 1200px;
@@ -255,18 +285,23 @@ summary {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 10px;
     /* background-color: aqua; */
+    /* background-color: #abb8c3; */
+    background-color: #e6eaed;
 
  }
  .footer-col{
     width: 270px;
     height: 355px;
     /* border: 2px solid black; */
+    /* background-color: #abb8c3; */
+    background-color: #e6eaed;
     
  }
  .image{
     width: 217px;
     height: 55px;
     /* border: 2px solid black; */
+    background-color: #e6eaed;
 
  }
  .text{
@@ -275,12 +310,14 @@ summary {
     color: black;
     line-height: 1.875em;
    text-align: center;
+   background-color: #e6eaed;
     
  }
  #block{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+  
  }
  .inner-col{
     width: 269px;
@@ -289,10 +326,13 @@ summary {
     font-weight: bold;
     /* border: 2px solid black; */
     padding: 22px 22px 22px 0px;
+    background-color: #e6eaed;
+    
     
  }
  .mail{
     padding: 37px 28px 28px 0px;
+    background-color: #e6eaed;
  }
 
 .comp{
@@ -306,8 +346,10 @@ summary {
     padding: 5px 5px 5px 0px;
      gap: 0.5cm;
      display: flex;
+     background-color: #e6eaed;
     
 }
+
  .hori{
     border: 2px solid #00bbee ;
     height: 0px;
@@ -322,6 +364,8 @@ summary {
     display: flex;
     gap: 15cm;
     padding-left:100px;
+    background-color: #e6eaed;
+    
 }
 
 /* .left{
@@ -332,10 +376,15 @@ summary {
 .right{
     display: flex;
     flex-direction:row;
+    margin-top: 20px;
+    background-color: #e6eaed;
+   
 
 }
 .left{
    margin-left: 166px;
+   margin-top: 20px;
+   background-color: #e6eaed;
 
 }
 /* .tom{
@@ -343,7 +392,4 @@ summary {
     
 } */
 
-#lucy{
-    margin-left: 250px;
-    padding-top: 50px;
-}
+

@@ -70,9 +70,10 @@ line-height: 2;
     height: 50px;
     margin: 30px 0px 0px 20px;
     border-radius:5px;
-    line-height: 3;
+    line-height: 3.5;
     text-align: center;
     color: white;
+    font-size: 13PX;
 }
 .trigger{
     height: 32px;
@@ -119,38 +120,60 @@ line-height: 2;
 }
 
     
-
-.box {
+.Bigbox {
     width: 672px;
     height: auto;
     background-color: #2f5aa8;
-    margin: 20px 0px 20px 35px ;
+    /* margin: 10px 0px 10px 10px; */
+    /* z-index: 2; */
+    border-radius: 10px;
+    
+
+}
+.box{
+    width: 672px;
+    height: auto;
+    background-color: #2f5aa8;
+    margin: 20px 0px 20px 35px;
     border-radius: 10px;
     position: relative;
-    top:40px;
+    top: 40px;
     left: 70px;
-    border-radius: 5px;
-    
 }
 
 .box1 {
+    margin-top: 10px;
     background-color: #2f5aa8;
-    padding: 80px;
+    margin-top: 40px;
+    padding: 0px 60px 0px 60px;
     color: white;
-    border-radius: 5px;
-    /* margin: 30px 0px 40px 0px; */
-    /* position: relative;
-    top:40px;
-    left: 70px; */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* margin-bottom: ; */
 
 }
 
+.faq {
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    background-color: #2f5aa8;
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 31px 0px 0px 30px;
+    border-top-left-radius: 5px;
+    
+}
+
 details {
-    padding: 10px;
+    height: auto;
+    /* padding: 5px; */
     border-radius: 5px;
     color: black;
     cursor: pointer;
     background-color: #2f5aa8;
+    font-size: 16px;
 }
 
 summary {
@@ -158,8 +181,10 @@ summary {
     border-radius: 5px;
 }
 
+#list ul {
+    background-color: #2f5aa8;
 
-
+}
 
 #list li {
     background-color: #2f5aa8;
@@ -179,12 +204,13 @@ summary {
 .box1 p{
     background-color: #2f5aa8;
     color: white;
-    height: 30px;
+    height: auto;
+    line-height: 2;
 }
 #top{
     text-align: center;
     font-size: 25px;
-    margin: 30px 0px 0px 30px;
+    margin: 70px 0px 0px 30px;
 }
 .search{
     display: flex;
@@ -194,12 +220,12 @@ summary {
 }
 #paragraph{
     font-size: 20px;
-    padding: 100px;
-    line-height: 1cm;
+    padding: 75px;
+    line-height: 0.8cm;
 }
 #picture{
     vertical-align: middle;
-    margin-top: 200px;
+    margin-top: 100px;
     height: 50px;
    
 
@@ -207,10 +233,10 @@ summary {
 .big-box{
     width: 1270px;
     height: 256px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     padding: 60px 50px 60px 50px;
-    margin: 2px 140px 50px 100px;
+    margin: 2px 140px 50px 125px;
     background-color: #ffffff;
     
 }
@@ -263,25 +289,24 @@ summary {
     width: 1130px;
     height: 990px;
     border: 2px solid black border;
-    margin: 10px 180px 10px 180px;
+    margin: 10px 180px 10px 199spx;
     /* display: flex; */
   
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     padding: 10px;
+    padding-left: 30px;
     /* display: inline-block; */
     /* flex-flow: wrap; */
     justify-content: space-around;
     align-content: space-around;
-    /* background-color: #1f2531; */
+    background-color: rgb(238, 244, 244);
 
 
 }
  .techno{
     width: 340px;
     height: 300px;
-    border: 2px solid black;
-    /* display: block; */
     
  }
  .footer{
